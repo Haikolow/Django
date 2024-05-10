@@ -49,7 +49,11 @@ pip install -r requirements.txt
 Вам необходимо будет создать базу в postgres и прогнать миграции:
 
 ```base
-manage.py migrate
+python manage.py makemigrations
+```
+
+```base
+python manage.py migrate
 ```
 
 Выполнить команду:
